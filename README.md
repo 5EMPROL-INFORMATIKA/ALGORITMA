@@ -23,10 +23,10 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Content
 
-- [Introduction](#introduction)
-- [Features](#features)
+- [Intro](#Intro)
+- [Fitur](#Fitur)
 
-## Intro Dulu
+## Intro
 
 [![Language](https://img.shields.io/static/v1?label=Pemrograman&message=C%2B%2B&color=red&logo=c%2B%2B&style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![Language](https://img.shields.io/static/v1?label=Pemrograman&message=PHP&color=blue&logo=php&style=plastic&logoColor=white)](https://en.wikipedia.org/wiki/PHP)
