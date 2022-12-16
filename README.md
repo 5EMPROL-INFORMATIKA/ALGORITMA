@@ -29,11 +29,9 @@
 ## Intro Dulu
 
 [![Language](https://img.shields.io/static/v1?label=Pemrograman&message=C%2B%2B&color=red&logo=c%2B%2B&style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
-[![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
-[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
+[![Language](https://img.shields.io/static/v1?label=Pemrograman&message=PHP&color=blue&logo=php&style=plastic&logoColor=white)](https://en.wikipedia.org/wiki/PHP)
+[![Language](https://img.shields.io/static/v1?label=Pemrograman&message=Python&color=blue&logo=python&style=plastic&logoColor=yellow)](https://en.wikipedia.org/wiki/Python_(programming_language))
+[![People](https://img.shields.io/static/v1?label=Developer&message=5&color=green&style=plastic)](https://aryasec1337.github.io))
 
 SIAPA KITA ?? YANG PASTINYA 5EMPROL
 
