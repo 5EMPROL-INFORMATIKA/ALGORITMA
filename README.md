@@ -31,7 +31,7 @@
 [![Language](https://img.shields.io/static/v1?label=Pemrograman&message=C%2B%2B&color=red&logo=c%2B%2B&style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![Language](https://img.shields.io/static/v1?label=Pemrograman&message=PHP&color=blue&logo=php&style=plastic&logoColor=white)](https://en.wikipedia.org/wiki/PHP)
 [![Language](https://img.shields.io/static/v1?label=Pemrograman&message=Python&color=blue&logo=python&style=plastic&logoColor=yellow)](https://en.wikipedia.org/wiki/Python_(programming_language))
-[![People](https://img.shields.io/static/v1?label=Developer&message=5&color=green&style=plastic)](https://aryasec1337.github.io))
+[![People](https://img.shields.io/static/v1?label=Developer&message=5&color=green&style=plastic)](https://aryasec1337.github.io)
 
 SIAPA KITA ?? YANG PASTINYA 5EMPROL
 
