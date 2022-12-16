@@ -28,7 +28,7 @@
 
 ## Intro Dulu
 
-[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+[![Language](https://img.shields.io/static/v1?label=Pemrograman&message=C%2B%2B&color=red&logo=c%2B%2B&style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
 [![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
