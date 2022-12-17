@@ -18,36 +18,54 @@ do{
 		cout << "========================================" << endl;
 		cout << "\tMata Kuliah\t" << endl;
 		cout << "========================================" << endl;
-		cout << "1.Algoritma || SKS 3" << endl;
-		cout << "2.Aljabar || SKS 3" << endl;
-		cout << "3.DSI || SKS 2" << endl;
+		cout << "1.Algoritma \t|| SKS 3" << endl;
+		cout << "2.Aljabar \t|| SKS 3" << endl;
+		cout << "3.DSI 	\t|| SKS 2" << endl;
 		cout << "========================================" << endl;
 		cout << "\tProgram Studi\t" << endl;
 		cout << "========================================" << endl;
-		cout << "1.TI" << endl;
-		cout << "2.SI" << endl;
+		cout << "1.TI (\tTeknik Informatika\t)" << endl;
+		cout << "2.SI (\tSistem Informasi\t)" << endl;
 		cout << "========================================" << endl;
 
-		cout << "Nama:\t";
+		SetConsoleTextAttribute(h,10);
+		cout << "[*]";
+		SetConsoleTextAttribute(h,15);
+		cout << " Nama\t= ";
 		cin >> nama_mahasiswa;
 		for(cek_nama=0; cek_nama < 5; cek_nama++){
 			if(nama_mahasiswa == nama[cek_nama]){
-				cout << "NIM:\t";
+				SetConsoleTextAttribute(h,10);
+				cout << "[*]";
+				SetConsoleTextAttribute(h,15);
+				cout << " NIM\t\t= ";
 				cin >> nim_mahasiswa;
 					for(cek_nim=0; cek_nim < 5; cek_nim++){
 						if(nim_mahasiswa == nim[cek_nim]){
-							cout << "Prodi:\t";
+							SetConsoleTextAttribute(h,10);
+							cout << "[*]";
+							SetConsoleTextAttribute(h,15);
+							cout << " Prodi\t= ";
 							cin >> prodi_dipilih;
 								for(cek_prodi=0; cek_prodi < 2; cek_prodi++){
 									if(prodi_dipilih == prodi[cek_prodi]){
 										cout << "========================================" << endl;
 										cout << "\tAnda Berhasil Login ke siakad\t\n";
 										cout << "========================================" << endl;
-										cout << "Berapa jumlah matkul yang ingin anda ulang ?\t"; cin >> masukan;
+										SetConsoleTextAttribute(h,10);
+										cout << "[*]";
+										SetConsoleTextAttribute(h,15);
+										cout << " Berapa jumlah matkul yang ingin anda ulang\t= "; cin >> masukan;
 										for(cek_matkul=0;cek_matkul<masukan;cek_matkul++){
-											cout << "pilih kategori matkul:\t"; cin >> pilih_ulang;
+											SetConsoleTextAttribute(h,10);
+											cout << "[*]";
+											SetConsoleTextAttribute(h,15);
+											cout << " Pilih kategori matkul\t= "; cin >> pilih_ulang;
 												if(pilih_ulang == '1'){
-													cout << "Masukan Jumlah SKS: \t"; cin >> matkul[3];
+													SetConsoleTextAttribute(h,10);
+													cout << "[*]";
+													SetConsoleTextAttribute(h,15);
+													cout << " Masukan Jumlah SKS\t\t= "; cin >> matkul[3];
 													if(matkul[3] == 3){
 														SetConsoleTextAttribute(h,10);
 														cout << "\n[Success]";
@@ -62,7 +80,10 @@ do{
 														break;
 													}
 												}else if(pilih_ulang == '2'){
-													cout << "Masukan Jumlah SKS: \t"; cin >> matkul[3];
+													SetConsoleTextAttribute(h,10);
+													cout << "[*]";
+													SetConsoleTextAttribute(h,15);
+													cout << " Masukan Jumlah SKS\t\t= "; cin >> matkul[3];
 													if(matkul[3] == 3){
 														SetConsoleTextAttribute(h,10);
 														cout << "\n[Success]";
@@ -77,7 +98,10 @@ do{
 														break;
 													}
 												}else if(pilih_ulang == '3'){
-													cout << "Masukan Jumlah SKS: \t"; cin >> matkul[3];
+													SetConsoleTextAttribute(h,10);
+													cout << "[*]";
+													SetConsoleTextAttribute(h,15);
+													cout << " Masukan Jumlah SKS\t\t= "; cin >> matkul[3];
 													if(matkul[3] == 2){
 														SetConsoleTextAttribute(h,10);
 														cout << "\n[Success]";
@@ -95,23 +119,53 @@ do{
 													SetConsoleTextAttribute(h,12);
 													cout << "\n[Oops!]";
 													SetConsoleTextAttribute ( h, 15);
-													cout << "\tTidak ada dalam kategori matkul";
+													cout << "\tTidak ada dalam kategori matkul\n";
 													break;
 												}
 										total_matkul = tm+=matkul[3];
 										total_tarif = tf+=tarif[100];
 										}
+										SetConsoleTextAttribute(h,10);
+										cout << "[Result]";
+										SetConsoleTextAttribute(h,15);
+										cout << " Total SKS\t= " << total_matkul;
+										SetConsoleTextAttribute(h,10);
+										cout << "\n[Result]";
+										SetConsoleTextAttribute(h,15);
+										cout << " Total Tarif\t= " << total_tarif;
+										break;
+									}else{
+													SetConsoleTextAttribute(h,12);
+													cout << "\n[Oops!]";
+													SetConsoleTextAttribute ( h, 15);
+													cout << "\tProdi tidak ada di database\n";
+													break;
 									}
 								}
+								break;
+						}else{
+							SetConsoleTextAttribute(h,12);
+							cout << "\n[Oops!]";
+							SetConsoleTextAttribute ( h, 15);
+							cout << "\tNama Mahasiswa tidak ada di database\n";
+							break;
 						}
 					}
+					break;
+			}else{
+				SetConsoleTextAttribute(h,12);
+				cout << "\n[Oops!]";
+				SetConsoleTextAttribute ( h, 15);
+				cout << "\tNama Mahasiswa tidak ada di database\n";
+				break;
 			}
 		}
-		cout << "Total SKS:\t" << total_matkul;
-		cout << "\nTotal Tarif:\t" << total_tarif;
 
 		cout << endl;
-		cout << "\nIngin Logout? (y/t): ";
+		SetConsoleTextAttribute(h,10);
+		cout << "\n[Pilih]";
+		SetConsoleTextAttribute(h,15);
+		cout << " Ingin Logout? (y/t): ";
 		cin >> pilih;
 		system("cls");
 }
